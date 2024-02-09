@@ -50,6 +50,7 @@ const Signup = (props) => {
             id="name"
             name="name"
             placeholder="Enter your name"
+            required
             onChange={onChange}
             aria-describedby="emailHelp"
           />
@@ -65,6 +66,7 @@ const Signup = (props) => {
             id="phone"
             name="phone"
             placeholder="Enter your phone"
+            required
             minLength={10}
             maxLength={10}
             onChange={onChange}
